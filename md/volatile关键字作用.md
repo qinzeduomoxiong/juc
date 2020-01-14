@@ -7,8 +7,10 @@
 学习前需要掌握最基础的juc概念
 
 - 线程的概念
-
 - 如何启动一个线程
 - 基本的线程同步
+
+volatile比synchronized更轻量级，保证线程之间变量的可见性，
+但不能代替synchronized，synchronized能保证变量的原子性。
 
 ![](../images/volatile关键字作用.png)
